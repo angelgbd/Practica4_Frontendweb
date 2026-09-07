@@ -4,3 +4,5 @@
     PrestamoService pertenece a la capa de negocio y no debe conocer HTTP ni códigos como 409. El middleware http decide traducirla a 409. Asi es desacoplable y no depende de una app o una api especifica.
 3. Si mañana agregaran una app móvil que también consume esta API, ¿qué archivos de esta práctica tendrían que tocar?
    Solo se desarrollaría el cliente móvil por que se consume la misma api, no habría necesidad de tocar nada de el backend.
+
+Profe por cierto llevo toda la semana sin laptop personal por que no pude probarlo con express por que no puedo instalar node en las compus del cisco. En cuanto pueda hago las pruebas.
